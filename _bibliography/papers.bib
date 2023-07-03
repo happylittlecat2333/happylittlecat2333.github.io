@@ -1,103 +1,65 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
 @inproceedings{xue2023m,
   title        = {M2-CTTS: End-to-End Multi-Scale Multi-Modal Conversational Text-to-Speech Synthesis},
+  abbr         = {ICASSP 2023},
   author       = {Xue, Jinlong and Deng, Yayue and Wang, Fengping and Li, Ya and Gao, Yingming and Tao, Jianhua and Sun, Jianqing and Liang, Jiaen},
   booktitle    = {ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  icassp       = {https://ieeexplore.ieee.org/abstract/document/10096905},
+  pdf          = {https://arxiv.org/pdf/2305.02269.pdf},
+  arxiv        = {2305.02269},
+  preview      = {xue2023m.png},
   pages        = {1--5},
   year         = {2023},
-  organization = {IEEE}
+  organization = {IEEE},
+  selected     = true,
+  abstract     = {Conversational text-to-speech (TTS) aims to synthesize speech with proper prosody of reply based on the historical conversation. However, it is still a challenge to comprehensively model the conversation, and a majority of conversational TTS systems only focus on extracting global information and omit local prosody features, which contain important fine-grained information like keywords and emphasis. Moreover, it is insufficient to only consider the textual features, and acoustic features also contain various prosody information. Hence, we propose M2 -CTTS, an end-to-end multi-scale multi-modal conversational text-to-speech system, aiming to comprehensively utilize historical conversation and enhance prosodic expression. More specifically, we design a textual context module and an acoustic context module with both coarse-grained and fine-grained modeling. Experimental results demonstrate that our model mixed with fine-grained context information and additionally considering acoustic features achieves better prosody performance and naturalness in CMOS tests.}
 }
-
 
 @inproceedings{xue2022ecapa,
   title        = {ECAPA-TDNN for Multi-speaker Text-to-speech Synthesis},
+  abbr         = {ISCSLP 2022},
   author       = {Xue, Jinlong and Deng, Yayue and Han, Yichen and Li, Ya and Sun, Jianqing and Liang, Jiaen},
   booktitle    = {2022 13th International Symposium on Chinese Spoken Language Processing (ISCSLP)},
+  pdf          = {https://arxiv.org/pdf/2203.10473.pdf},
+  arxiv        = {2305.02269},
+  preview      = {xue2022ecapa.png},
   pages        = {230--234},
   year         = {2022},
-  organization = {IEEE}
+  organization = {IEEE},
+  selected     = true,
+  abstract     = {In recent years, neural network based methods for multispeaker text-to-speech synthesis (TTS) have made significant progress. However, the current speaker encoder models used in these methods still cannot capture enough speaker information. In this paper, we focus on accurate speaker encoder modeling and propose an end-to-end method that can generate better similarity for both seen and unseen speakers. The proposed architecture consists of three separately trained components: a speaker encoder based on the state-of-the-art ECAPA-TDNN model which is derived from speaker verification task, a FastSpeech2 based synthesizer, and a HiFi-GAN vocoder. The comparison among different speaker encoder models shows our proposed method can achieve better speaker similarity. To efficiently evaluate our synthesized speech, we are the first to adopt and evaluate different deep learning based automatic MOS evaluation methods to assess our results, and these methods show great potential in automatic speech quality assessment.}
 }
 
-% @book{einstein1956investigations,
-%   bibtex_show={true},
-%   title={Investigations on the Theory of the Brownian Movement},
-%   author={Einstein, Albert},
-%   year={1956},
-%   publisher={Courier Corporation},
-%   preview={brownian-motion.gif}
-% }
 
-% @article{einstein1950meaning,
-%   abbr={AJP},
-%   bibtex_show={true},
-%   title={The meaning of relativity},
-%   author={Einstein, Albert and Taub, AH},
-%   journal={American Journal of Physics},
-%   volume={18},
-%   number={6},
-%   pages={403--404},
-%   year={1950},
-%   publisher={American Association of Physics Teachers}
-% }
+@inproceedings{ke2022rhythm,
+  title        = {Rhythm-controllable Attention with High Robustness for Long Sentence Speech Synthesis},
+  abbr         = {ISCSLP 2022},
+  author       = {Ke, Dengfeng and Deng, Yayue and Jia, Yukang and Xue, Jinlong and Luo, Qi and Li, Ya and Sun, Jianqing and Liang, Jiaen and Lin, Binghuai},
+  booktitle    = {2022 13th International Symposium on Chinese Spoken Language Processing (ISCSLP)},
+  pdf          = {https://arxiv.org/pdf/2306.02593.pdf},
+  arxiv        = {2306.02593},
+  preview      = {ke2022rhythm.png},
+  pages        = {220--224},
+  year         = {2022},
+  organization = {IEEE},
+  abstract     = {Regressive Text-to-Speech (TTS) system utilizes attention mechanism to generate alignment between text and acoustic feature sequence. Alignment determines synthesis robustness (e.g, the occurence of skipping, repeating, and collapse) and rhythm via duration control. However, current attention algorithms used in speech synthesis cannot control rhythm using external duration information to generate natural speech while ensuring robustness. In this study, we propose Rhythm-controllable Attention (RC-Attention) based on Tracotron2, which improves robustness and naturalness simultaneously. Proposed attention adopts a trainable scalar learned from four kinds of information to achieve rhythm control, which makes rhythm control more robust and natural, even when synthesized sentences are extremely longer than training corpus. We use word errors counting and AB preference test to measure robustness of proposed method and naturalness of synthesized speech, respectively. Results shows that RC-Attention has the lowest word error rate of nearly 0.6\%, compared with 11.8\% for baseline system. Moreover, nearly 60\% subjects prefer to the speech synthesized with RC-Attention to that with Forward Attention, because the former has more natural rhythm.}
+}
 
-% @article{PhysRev.47.777,
-%   abbr={PhysRev},
-%   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-%   author={Einstein, A. and Podolsky, B. and Rosen, N.},
-%   abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-%   journal={Phys. Rev.},
-%   volume={47},
-%   issue={10},
-%   pages={777--780},
-%   numpages={0},
-%   year={1935},
-%   month={May},
-%   publisher=aps,
-%   doi={10.1103/PhysRev.47.777},
-%   url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-%   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-%   pdf={example_pdf.pdf},
-%   altmetric={248277},
-%   dimensions={true},
-%   selected={true}
-% }
 
-% @article{einstein1905molekularkinetischen,
-%   title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-%   author={Einstein, A.},
-%   journal={Annalen der physik},
-%   volume={322},
-%   number={8},
-%   pages={549--560},
-%   year={1905},
-%   publisher={Wiley Online Library}
-% }
+@inproceedings{han2022keypoint,
+  title        = {A Keypoint Based Enhancement Method for Audio Driven Free View Talking Head Synthesis},
+  abbr         = {MMSP 2022},
+  author       = {Han, Yichen and Li, Ya and Gao, Yingming and Xue, Jinlong and Wang, Songpo and Yang, Lei},
+  booktitle    = {2022 IEEE 24th International Workshop on Multimedia Signal Processing (MMSP)},
+  pdf          = {https://arxiv.org/pdf/2210.03335.pdf},
+  arxiv        = {2210.03335},
+  preview      = {han2022keypoint.png},
+  pages        = {1--6},
+  year         = {2022},
+  organization = {IEEE},
+  abstract     = {Audio driven talking head synthesis is a challenging task that attracts increasing attention in recent years. Although existing methods based on 2D landmarks or 3D face models can synthesize accurate lip synchronization and rhythmic head pose for arbitrary identity, they still have limitations, such as the cut feeling in the mouth mapping and the lack of skin highlights. The morphed region is blurry compared to the surrounding face. A Keypoint Based Enhancement (KPBE) method is proposed for audio driven free view talking head synthesis to improve the naturalness of the generated video. Firstly, existing methods were used as the backend to synthesize intermediate results. Then we used keypoint decomposition to extract video synthesis controlling parameters from the backend output and the source image. After that, the controlling parameters were composited to the source keypoints and the driving keypoints. A motion field based method was used to generate the final image from the keypoint representation. With keypoint representation, we overcame the cut feeling in the mouth mapping and the lack of skin highlights. Experiments show that our proposed enhancement method improved the quality of talking-head videos in terms of mean opinion score.}
+}
 
-% @article{einstein1905movement,
-%   abbr={Ann. Phys.},
-%   title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-%   author={Einstein, A.},
-%   journal={Ann. Phys.},
-%   volume={17},
-%   pages={549--560},
-%   year={1905}
-% }
-
-% @article{einstein1905electrodynamics,
-%   title={On the electrodynamics of moving bodies},
-%   author={Einstein, A.},
-%   year={1905}
-% }
-
-% @book{przibram1967letters,
-%   bibtex_show={true},
-%   title={Letters on wave mechanics},
-%   author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-%   year={1967},
-%   publisher={Vision},
-%   preview={wave-mechanics.gif}
-% }

@@ -28,11 +28,23 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
-            {%- if page.profile.address %}
+
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+              
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+            </div>
+
+
+            <!-- {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
             </div>
-            {%- endif %}
+            {%- endif %} -->
           </div>
           {%- endif %}
 
@@ -40,11 +52,15 @@ layout: default
             {{ content }}
           </div>
 
+          <br>
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
+
+          <br>
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
@@ -59,6 +75,7 @@ layout: default
           {%- endif %}
 
           <!-- Social -->
+          <!-- 
           {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
@@ -70,7 +87,9 @@ layout: default
               </div>
 
             </div>
-          {%- endif %}
+          -->
+
+          {%- endif %} 
         </article>
 
 </div>

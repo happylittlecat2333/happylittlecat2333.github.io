@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2018-09-01 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I started my master degree at BUPT with Associate Professor [Ya Li](https://scholar.google.com.hk/citations?user=ISK42qAAAAAJ).! :sparkles: 
