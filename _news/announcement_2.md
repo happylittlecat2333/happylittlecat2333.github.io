@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our ICASSP 2023 paper is accepted! 🎉
+Our **ICASSP** 2023 paper M2-CTTS is accepted! 🎉

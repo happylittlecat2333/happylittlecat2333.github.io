@@ -2,11 +2,64 @@
 ---
 
 
+@article{xue2024auffusion,
+  title    = {Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation},
+  author   = {Xue, Jinlong and Deng, Yayue and Gao, Yingming and Li, Ya},
+  journal  = {arXiv preprint arXiv:2401.01044},
+  preview  = {xue2024auffusion.png},
+  arxiv    = {2401.01044},
+  year     = {2024},
+  pdf      = {https://arxiv.org/pdf/2401.01044.pdf},
+  selected = true,
+  abstract = {
+              Recent advancements in diffusion models and large language models (LLMs) have significantly propelled the field of AIGC. Text-to-Audio (TTA), a burgeoning AIGC application designed to generate audio from natural language prompts, is attracting increasing attention. However, existing TTA studies often struggle with generation quality and text-audio alignment, especially for complex textual inputs. Drawing inspiration from state-of-the-art Text-to-Image (T2I) diffusion models, we introduce Auffusion, a TTA system adapting T2I model frameworks to TTA task, by effectively leveraging their inherent generative strengths and precise cross-modal alignment. Our objective and subjective evaluations demonstrate that Auffusion surpasses previous TTA approaches using limited data and computational resource. Furthermore, previous studies in T2I recognizes the significant impact of encoder choice on cross-modal alignment, like fine-grained details and object bindings, while similar evaluation is lacking in prior TTA works. Through comprehensive ablation studies and innovative cross-attention map visualizations, we provide insightful assessments of text-audio alignment in TTA. Our findings reveal Auffusion's superior capability in generating audios that accurately match textual descriptions, which further demonstrated in several related tasks, such as audio style transfer, inpainting and other manipulations. Our implementation and demos are available at https://auffusion.github.io/.
+              }
+}
+
+
+
+@article{xue2023concss,
+  title        = {CONCSS: Contrastive-based Context Comprehension for Dialogue-appropriate Prosody in Conversational Speech Synthesis},
+  abbr         = {ICASSP 2024},
+  author       = {Deng, Yayue and Xue, Jinlong and Jia, Yukang and Li, Qifei and Han, Yichen and Wang, Fengping and Gao, Yingming and Ke, Dengfeng and Li, Ya},
+  journal      = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pdf          = {https://arxiv.org/pdf/2312.10358.pdf},
+  arxiv        = {2312.10358},
+  preview      = {xue2023concss.png},
+  pages        = {1--5},
+  year         = {2024},
+  organization = {IEEE},
+  selected     = true,
+  abstract     = {
+                  Conversational speech synthesis (CSS) incorporates historical dialogue as supplementary information with the aim of generating speech that has dialogue-appropriate prosody. While previous methods have already delved into enhancing context comprehension, context representation still lacks effective representation capabilities and context-sensitive discriminability. In this paper, we introduce a contrastive learning-based CSS framework, CONCSS. Within this framework, we define an innovative pretext task specific to CSS that enables the model to perform self-supervised learning on unlabeled conversational datasets to boost the model's context understanding. Additionally, we introduce a sampling strategy for negative sample augmentation to enhance context vectors' discriminability. This is the first attempt to integrate contrastive learning into CSS. We conduct ablation studies on different contrastive learning strategies and comprehensive experiments in comparison with prior CSS systems. Results demonstrate that the synthesized speech from our proposed method exhibits more contextually appropriate and sensitive prosody.
+                  }
+}
+
+
+
+@inproceedings{xue2023cmcu,
+  title     = {{CMCU-CSS:} Enhancing Naturalness via Commonsense-based Multi-modal
+               Context Understanding in Conversational Speech Synthesis},
+  abbr      = {ACM MM 2023},
+  author    = {Deng, Yayue and Xue, Jinlong and Gao, Yingming and Li, Ya},
+  booktitle = {Proceedings of the 31st {ACM} International Conference on Multimedia,
+               ({MM})},
+  pdf       = {https://dl.acm.org/doi/abs/10.1145/3581783.3612565},
+  preview   = {xue2023cmcu.png},
+  pages     = {6081--6089},
+  publisher = {{ACM}},
+  year      = {2023},
+  selected  = true,
+  abstract  = {
+               Conversational Speech Synthesis (CSS) aims to produce speech appropriate for oral communication. However, the complexity of context dependency modeling poses significant challenges in the field of CSS, especially the mutual psychological influence between interlocutors. Previous studies have verified that prior commonsense knowledge helps machines understand subtle psychological information (e.g., feelings and intentions) in spontaneous oral dialogues. Therefore, to enhance context understanding and improve the naturalness of synthesized speech, we propose a novel conversational speech synthesis system (CMCU-CSS) that incorporates the Commonsense-based Multi-modal Context Understanding (CMCU) module to model the dynamic emotional interaction among interlocutors. Specifically, we first utilize three implicit states (intent state, internal state and external state) in CMCU to model the context dependency between inter/intra speakers with the help of commonsense knowledge. Furthermore, we infer emotion vectors from the fusion of these implicit states and multi-modal features to enhance the emotion discriminability of synthesized speech. This is the first attempt to combine commonsense knowledge with conversational speech synthesis, and its effect in terms of emotion discriminability of synthetic speech is evaluated by emotion recognition in conversation task. The results of subjective and objective evaluations demonstrate that the CMCU-CSS model achieves more natural speech with context-appropriate emotion and is equipped with the best emotion discriminability, surpassing that of other conversational speech synthesis models.}
+}
+
+
 @inproceedings{xue2023m,
   title        = {M2-CTTS: End-to-End Multi-Scale Multi-Modal Conversational Text-to-Speech Synthesis},
   abbr         = {ICASSP 2023},
   author       = {Xue, Jinlong and Deng, Yayue and Wang, Fengping and Li, Ya and Gao, Yingming and Tao, Jianhua and Sun, Jianqing and Liang, Jiaen},
-  booktitle    = {ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  booktitle    = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   icassp       = {https://ieeexplore.ieee.org/abstract/document/10096905},
   pdf          = {https://arxiv.org/pdf/2305.02269.pdf},
   arxiv        = {2305.02269},
