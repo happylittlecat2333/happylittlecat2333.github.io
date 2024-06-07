@@ -17,11 +17,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi there! I am currently a graduate student at the [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) (BUPT), and my major is Artificial Intelligence. I am supervised by Associate Professor [Ya Li](https://scholar.google.com.hk/citations?user=ISK42qAAAAAJ) and I now focus on Speech Synthesis and Spoken Dialogue Systems. I completed my undergraduate degree in Computer Science also at [BUPT](https://www.bupt.edu.cn/).
+Hi there! I am currently a master's student at the [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) (BUPT), majoring in Artificial Intelligence. I am supervised by Associate Professor [Ya Li](https://scholar.google.com.hk/citations?user=ISK42qAAAAAJ), focusing on speech synthesis, NLP, and multimodal generation.
 
-I have a keen interest in all aspects of Conversational AI. This includes Expressive Speech Synthesis, ChatBot, Empathic Computing, NLP and AIGC. My ultimate goal is to development more intelligent and interactive AI systems with human emotion. 
+I have a keen interest in all aspects of multimodal generation, including speech synthesis, multimodal LLM, and AIGC. I am also interested in developing intelligent and interactive AI systems with human emotions.
 
-I decide to pursue a Ph.D. abroad after completing my Master's degree in 2025. **If any professors or researchers are interested in my work or see potential for collaboration, please do not hesitate to contact me!**
+I plan to pursue a Ph.D. abroad after completing my master's degree in 2025. **If any professors or researchers are interested in my work or see potential for collaboration, please do not hesitate to contact me!**
 
 
 <!-- 

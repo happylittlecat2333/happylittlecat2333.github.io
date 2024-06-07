@@ -2,6 +2,37 @@
 ---
 
 
+@article{xue2024improving,
+  title    = {Improving Audio Codec-based Zero-Shot Text-to-Speech Synthesis with Multi-Modal Context and Large Language Model},
+  abbr     = {Interspeech 2024},
+  author   = {Jinlong Xue and Yayue Deng and Yicheng Han and Yingming Gao and Ya Li},
+  journal  = {Interspeech},
+  preview  = {xue2024improving.png},
+  year     = {2024},
+  arxiv    = {2406.03706},
+  pdf      = {https://arxiv.org/pdf/2406.03706.pdf},
+  selected = true,
+  abstract = {
+              Recent advances in large language models (LLMs) and development of audio codecs greatly propel the zero-shot TTS. They can synthesize personalized speech with only a 3-second speech of an unseen speaker as acoustic prompt. However, they only support short speech prompts and cannot leverage longer context information, as required in audiobook and conversational TTS scenarios. In this paper, we introduce a novel audio codec-based TTS model to adapt context features with multiple enhancements. Inspired by the success of Qformer, we propose a multi-modal context-enhanced Qformer (MMCE-Qformer) to utilize additional multi-modal context information. Besides, we adapt a pretrained LLM to leverage its understanding ability to predict semantic tokens, and use a SoundStorm to generate acoustic tokens thereby enhancing audio quality and speaker similarity. The extensive objective and subjective evaluations show that our proposed method outperforms baselines across various context TTS scenarios.
+              }
+}
+
+
+@article{xue2024retrieval,
+  title    = {Retrieval Augmented Generation in Prompt-based Text-to-Speech Synthesis with Context-Aware Contrastive Language-Audio Pretraining},
+  abbr     = {Interspeech 2024},
+  author   = {Jinlong Xue and Yayue Deng and Yingming Gao and Ya Li},
+  journal  = {Interspeech},
+  preview  = {xue2024retrieval.png},
+  year     = {2024},
+  arxiv    = {2406.03714},
+  pdf      = {https://arxiv.org/pdf/2406.03714.pdf},
+  selected = true,
+  abstract = {
+              Recent prompt-based text-to-speech (TTS) models can clone an unseen speaker using only a short speech prompt. They leverage a strong in-context ability to mimic the speech prompts, including speaker style, prosody, and emotion. Therefore, the selection of a speech prompt greatly influences the generated speech, akin to the importance of a prompt in large language models (LLMs). However, current prompt-based TTS models choose the speech prompt manually or simply at random. Hence, in this paper, we adapt retrieval augmented generation (RAG) from LLMs to prompt-based TTS. Unlike traditional RAG methods, we additionally consider contextual information during the retrieval process and present a Context-Aware Contrastive Language-Audio Pre-training (CA-CLAP) model to extract context-aware, style-related features. The objective and subjective evaluations demonstrate that our proposed RAG method outperforms baselines, and our CA-CLAP achieves better results than text-only retrieval methods.
+              }
+}
+
 @article{xue2024auffusion,
   title    = {Auffusion: Leveraging the Power of Diffusion and Large Language Models for Text-to-Audio Generation},
   author   = {Xue, Jinlong and Deng, Yayue and Gao, Yingming and Li, Ya},
